@@ -211,7 +211,7 @@ class MainMenuState extends MusicBeatState
 			{
 				if (optionShit[curSelected] == 'Youtube')
 				{
-					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
+					CoolUtil.browserLoad('');
 				}
 				else
 				{
@@ -273,7 +273,7 @@ class MainMenuState extends MusicBeatState
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
-		//r.screenCenter(X);
+		//spr.screenCenter(X);
 		});
 	}
 
